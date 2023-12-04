@@ -18,6 +18,8 @@
   height: 320px;
   width: 250px;
   padding: 20px;
+  margin-bottom: 30px;
+
   will-change: filter;
   transition: filter 300ms;
 }
