@@ -5,32 +5,6 @@
   text-align: center;
 }
 
-.songsDiv {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.songDiv {
-  height: 320px;
-  width: 250px;
-  padding: 20px;
-  margin-bottom: 30px;
-
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.songDiv:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.songDiv.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
 .read-the-docs {
   color: #888;
 }

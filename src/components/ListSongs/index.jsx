@@ -1,3 +1,4 @@
+import './style.css'
 import { Like } from '../../components'
 import { songs } from '../../data/songs'
 
