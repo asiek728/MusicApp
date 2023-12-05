@@ -1,6 +1,6 @@
-import banner from './assets/imagineDragons.png'
+import banner from '../../assets/imagineDragons.png'
 
-export const ArtistInfo = () => {
+const ArtistInfo = () => {
 
     return (
         <>
@@ -14,3 +14,5 @@ export const ArtistInfo = () => {
         </>
     )
 }
+
+export default ArtistInfo

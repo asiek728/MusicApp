@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import likeBtn from './assets/like.png'
-import dislikeBtn from './assets/dislike.png'
+import likeBtn from '../../assets/like.png'
+import dislikeBtn from '../../assets/dislike.png'
 
-export const Like = () => {
+const Like = () => {
     const [like, setLike] = useState(false)
     
     function changeLikeState() {
@@ -18,3 +18,5 @@ export const Like = () => {
       />
     )
 }
+
+export default Like
